@@ -18,8 +18,8 @@ variable "volumenes" {
     
         {
             volume_name = "vol_wamaro"
-            host_path = "/home/ubuntu/environment/cursoTerraformWamaro"
             container_path = "/cursoTerraformWamaro"
+            host_path = "/home/ubuntu/environment/cursoTerraformWamaro"
         },
         {
             volume_name = "vol_ivan"
